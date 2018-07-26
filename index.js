@@ -5,7 +5,7 @@ function destructivelyAppendKitten(name) {
 }
 
 function destructivelyPrependKitten(name) {
-  kittens.splice(0, 1, name)
+  kittens.slice(0, name)
 }
 
 
