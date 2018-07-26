@@ -12,15 +12,9 @@ function destructivelyRemoveLastKitten() {
   kittens.pop()
 }
 
-
-//   describe('destructivelyRemoveLastKitten()', function() {
-//     it('removes the last kitten from the kittens array', function() {
-//       destructivelyRemoveLastKitten()
-
-//       expect(window.kittens).toEqual(["Milo", "Otis"])
-//     })
-//   })
-
+function destructivelyRemoveFirstKitten() {
+  kittens.shift()
+}
 
 
 
@@ -33,6 +27,12 @@ function destructivelyRemoveLastKitten() {
 //       expect(window.kittens).toEqual(["Otis", "Garfield"])
 //     })
 //   })
+
+
+
+
+
+
 
 //   describe('appendKitten(name)', function() {
 //     it('appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
