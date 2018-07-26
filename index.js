@@ -4,7 +4,9 @@ function destructivelyAppendKitten(name) {
   kittens.push(name)
 }
 
+function destructivelyPrependKitten(name) {
   
+}
 
 
 // describe('destructivelyPrependKitten(name)', function() {
@@ -14,6 +16,12 @@ function destructivelyAppendKitten(name) {
 //       expect(window.kittens).toEqual(["Bob", "Milo", "Otis", "Garfield"])
 //     })
 //   })
+
+
+
+
+
+
 
 //   describe('destructivelyRemoveLastKitten()', function() {
 //     it('removes the last kitten from the kittens array', function() {
